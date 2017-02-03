@@ -5,6 +5,6 @@ import org.openqa.selenium.WebElement;
 
 public class UploadFile {
   public static void execute(WebDriver driver, WebElement uploadButton, String fileName) {
-    uploadButton.sendKeys(System.getProperty("user.dir") + "\\resources\\" + fileName);
+    uploadButton.sendKeys(System.getProperty("user.dir") + "src\\test\\resources\\testFiles\\" + fileName);
   }
 }

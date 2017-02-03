@@ -3,49 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="testsAlert.AlertTest">
-        <methods>
-          <include name="inputAlert"/>
-          <include name="initialize"/>
-          <include name="simpleAlert"/>
-        </methods>
-      </class> <!-- testsAlert.AlertTest -->
-      <class name="testsLogin.LoginTest">
-        <methods>
-          <include name="initialize"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- testsLogin.LoginTest -->
-      <class name="testsFramesAndWindows.FramesAndWindowsTest">
-        <methods>
-          <include name="initialize"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- testsFramesAndWindows.FramesAndWindowsTest -->
-      <class name="testsDropdown.DropdownTest">
-        <methods>
-          <include name="initialize"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- testsDropdown.DropdownTest -->
-      <class name="testsCount.CountElementsTest">
-        <methods>
-          <include name="initialize"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- testsCount.CountElementsTest -->
       <class name="testsRegistration.RegistrationTest">
         <methods>
           <include name="tearDown"/>
+          <include name="validRegistrationWithAllDataCorrect"/>
           <include name="initialize"/>
         </methods>
       </class> <!-- testsRegistration.RegistrationTest -->
-      <class name="testsBoxesClick.OpenDropdownTest">
-        <methods>
-          <include name="initialize"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- testsBoxesClick.OpenDropdownTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

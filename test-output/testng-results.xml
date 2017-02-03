@@ -1,37 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="23569" started-at="2017-02-03T14:35:15Z" finished-at="2017-02-03T14:35:39Z">
+  <suite name="Default suite" duration-ms="15128" started-at="2017-02-03T14:55:34Z" finished-at="2017-02-03T14:55:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="23569" started-at="2017-02-03T14:35:15Z" finished-at="2017-02-03T14:35:39Z">
-      <class name="testsAlert.AlertTest">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:testsAlert.AlertTest@29ee9faa]" name="initialize" is-config="true" duration-ms="12157" started-at="2017-02-03T15:35:15Z" finished-at="2017-02-03T15:35:28Z">
+    <test name="Default test" duration-ms="15128" started-at="2017-02-03T14:55:34Z" finished-at="2017-02-03T14:55:49Z">
+      <class name="testsRegistration.RegistrationTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testsRegistration.RegistrationTest@8bd1b6a]" name="initialize" is-config="true" duration-ms="12063" started-at="2017-02-03T15:55:34Z" finished-at="2017-02-03T15:55:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="inputAlert()[pri:0, instance:testsAlert.AlertTest@29ee9faa]" name="inputAlert" duration-ms="361" started-at="2017-02-03T15:35:28Z" finished-at="2017-02-03T15:35:28Z">
+        <test-method status="PASS" signature="validRegistrationWithAllDataCorrect()[pri:0, instance:testsRegistration.RegistrationTest@8bd1b6a]" name="validRegistrationWithAllDataCorrect" duration-ms="2040" started-at="2017-02-03T15:55:46Z" finished-at="2017-02-03T15:55:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- inputAlert -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testsAlert.AlertTest@29ee9faa]" name="tearDown" is-config="true" duration-ms="1006" started-at="2017-02-03T15:35:28Z" finished-at="2017-02-03T15:35:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="initialize()[pri:0, instance:testsAlert.AlertTest@29ee9faa]" name="initialize" is-config="true" duration-ms="7791" started-at="2017-02-03T15:35:29Z" finished-at="2017-02-03T15:35:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="simpleAlert()[pri:0, instance:testsAlert.AlertTest@29ee9faa]" name="simpleAlert" duration-ms="1384" started-at="2017-02-03T15:35:37Z" finished-at="2017-02-03T15:35:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- simpleAlert -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testsAlert.AlertTest@29ee9faa]" name="tearDown" is-config="true" duration-ms="833" started-at="2017-02-03T15:35:38Z" finished-at="2017-02-03T15:35:39Z">
+        </test-method> <!-- validRegistrationWithAllDataCorrect -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testsRegistration.RegistrationTest@8bd1b6a]" name="tearDown" is-config="true" duration-ms="1001" started-at="2017-02-03T15:55:48Z" finished-at="2017-02-03T15:55:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testsAlert.AlertTest -->
+      </class> <!-- testsRegistration.RegistrationTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
