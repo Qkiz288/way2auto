@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="111653" started-at="2017-02-03T14:04:27Z" finished-at="2017-02-03T14:06:18Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="111653" started-at="2017-02-03T14:04:27Z" finished-at="2017-02-03T14:06:18Z">
+      <class name="testsDropdown.DropdownTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testsDropdown.DropdownTest@4da4253]" name="initialize" is-config="true" duration-ms="10367" started-at="2017-02-03T15:05:03Z" finished-at="2017-02-03T15:05:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="checkIsPromtCorrect()[pri:0, instance:testsDropdown.DropdownTest@4da4253]" name="checkIsPromtCorrect" duration-ms="374" started-at="2017-02-03T15:05:13Z" finished-at="2017-02-03T15:05:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIsPromtCorrect -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testsDropdown.DropdownTest@4da4253]" name="tearDown" is-config="true" duration-ms="831" started-at="2017-02-03T15:05:13Z" finished-at="2017-02-03T15:05:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testsDropdown.DropdownTest@4da4253]" name="initialize" is-config="true" duration-ms="8246" started-at="2017-02-03T15:05:14Z" finished-at="2017-02-03T15:05:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="selectElementFromDropdownList()[pri:0, instance:testsDropdown.DropdownTest@4da4253]" name="selectElementFromDropdownList" duration-ms="2006" started-at="2017-02-03T15:05:22Z" finished-at="2017-02-03T15:05:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectElementFromDropdownList -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testsDropdown.DropdownTest@4da4253]" name="tearDown" is-config="true" duration-ms="871" started-at="2017-02-03T15:05:24Z" finished-at="2017-02-03T15:05:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testsDropdown.DropdownTest -->
+      <class name="testsLogin.LoginTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testsLogin.LoginTest@1649b0e6]" name="initialize" is-config="true" duration-ms="5336" started-at="2017-02-03T15:05:25Z" finished-at="2017-02-03T15:05:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="loginFromDemoPageWithCorrectCredentials()[pri:0, instance:testsLogin.LoginTest@1649b0e6]" name="loginFromDemoPageWithCorrectCredentials" duration-ms="3826" started-at="2017-02-03T15:05:31Z" finished-at="2017-02-03T15:05:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFromDemoPageWithCorrectCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testsLogin.LoginTest@1649b0e6]" name="tearDown" is-config="true" duration-ms="838" started-at="2017-02-03T15:05:35Z" finished-at="2017-02-03T15:05:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testsLogin.LoginTest@1649b0e6]" name="initialize" is-config="true" duration-ms="4616" started-at="2017-02-03T15:05:35Z" finished-at="2017-02-03T15:05:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="loginFromDemoPageWithIncorrectCredentials()[pri:0, instance:testsLogin.LoginTest@1649b0e6]" name="loginFromDemoPageWithIncorrectCredentials" duration-ms="5885" started-at="2017-02-03T15:05:40Z" finished-at="2017-02-03T15:05:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFromDemoPageWithIncorrectCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testsLogin.LoginTest@1649b0e6]" name="tearDown" is-config="true" duration-ms="860" started-at="2017-02-03T15:05:46Z" finished-at="2017-02-03T15:05:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testsLogin.LoginTest -->
+      <class name="testsCount.CountElementsTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testsCount.CountElementsTest@2beee7ff]" name="initialize" is-config="true" duration-ms="6570" started-at="2017-02-03T15:04:48Z" finished-at="2017-02-03T15:04:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="countTotalBoxes()[pri:0, instance:testsCount.CountElementsTest@2beee7ff]" name="countTotalBoxes" duration-ms="131" started-at="2017-02-03T15:04:54Z" finished-at="2017-02-03T15:04:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countTotalBoxes -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testsCount.CountElementsTest@2beee7ff]" name="tearDown" is-config="true" duration-ms="821" started-at="2017-02-03T15:04:55Z" finished-at="2017-02-03T15:04:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testsCount.CountElementsTest@2beee7ff]" name="initialize" is-config="true" duration-ms="6370" started-at="2017-02-03T15:04:55Z" finished-at="2017-02-03T15:05:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="countWidgetBoxes()[pri:0, instance:testsCount.CountElementsTest@2beee7ff]" name="countWidgetBoxes" duration-ms="23" started-at="2017-02-03T15:05:02Z" finished-at="2017-02-03T15:05:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countWidgetBoxes -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testsCount.CountElementsTest@2beee7ff]" name="tearDown" is-config="true" duration-ms="830" started-at="2017-02-03T15:05:02Z" finished-at="2017-02-03T15:05:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testsCount.CountElementsTest -->
+      <class name="testsRegistration.RegistrationTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testsRegistration.RegistrationTest@55b53d44]" name="initialize" is-config="true" duration-ms="7783" started-at="2017-02-03T15:05:56Z" finished-at="2017-02-03T15:06:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="invalidRegistrationWithoutName()[pri:0, instance:testsRegistration.RegistrationTest@55b53d44]" name="invalidRegistrationWithoutName" duration-ms="2036" started-at="2017-02-03T15:06:04Z" finished-at="2017-02-03T15:06:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidRegistrationWithoutName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testsRegistration.RegistrationTest@55b53d44]" name="tearDown" is-config="true" duration-ms="865" started-at="2017-02-03T15:06:06Z" finished-at="2017-02-03T15:06:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testsRegistration.RegistrationTest@55b53d44]" name="initialize" is-config="true" duration-ms="8901" started-at="2017-02-03T15:06:07Z" finished-at="2017-02-03T15:06:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validRegistrationWithAllDataCorrect()[pri:0, instance:testsRegistration.RegistrationTest@55b53d44]" name="validRegistrationWithAllDataCorrect" duration-ms="1884" started-at="2017-02-03T15:06:16Z" finished-at="2017-02-03T15:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validRegistrationWithAllDataCorrect -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testsRegistration.RegistrationTest@55b53d44]" name="tearDown" is-config="true" duration-ms="809" started-at="2017-02-03T15:06:18Z" finished-at="2017-02-03T15:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testsRegistration.RegistrationTest -->
+      <class name="testsBoxesClick.OpenDropdownTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testsBoxesClick.OpenDropdownTest@6a6afff2]" name="initialize" is-config="true" duration-ms="3986" started-at="2017-02-03T15:05:47Z" finished-at="2017-02-03T15:05:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="openDropdownSection()[pri:0, instance:testsBoxesClick.OpenDropdownTest@6a6afff2]" name="openDropdownSection" duration-ms="4498" started-at="2017-02-03T15:05:51Z" finished-at="2017-02-03T15:05:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDropdownSection -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testsBoxesClick.OpenDropdownTest@6a6afff2]" name="tearDown" is-config="true" duration-ms="823" started-at="2017-02-03T15:05:55Z" finished-at="2017-02-03T15:05:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testsBoxesClick.OpenDropdownTest -->
+      <class name="testsAlert.AlertTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testsAlert.AlertTest@366647c2]" name="initialize" is-config="true" duration-ms="9865" started-at="2017-02-03T15:04:27Z" finished-at="2017-02-03T15:04:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="inputAlert()[pri:0, instance:testsAlert.AlertTest@366647c2]" name="inputAlert" duration-ms="408" started-at="2017-02-03T15:04:37Z" finished-at="2017-02-03T15:04:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputAlert -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testsAlert.AlertTest@366647c2]" name="tearDown" is-config="true" duration-ms="957" started-at="2017-02-03T15:04:37Z" finished-at="2017-02-03T15:04:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testsAlert.AlertTest@366647c2]" name="initialize" is-config="true" duration-ms="8899" started-at="2017-02-03T15:04:38Z" finished-at="2017-02-03T15:04:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="simpleAlert()[pri:0, instance:testsAlert.AlertTest@366647c2]" name="simpleAlert" duration-ms="268" started-at="2017-02-03T15:04:47Z" finished-at="2017-02-03T15:04:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- simpleAlert -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testsAlert.AlertTest@366647c2]" name="tearDown" is-config="true" duration-ms="854" started-at="2017-02-03T15:04:47Z" finished-at="2017-02-03T15:04:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testsAlert.AlertTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
