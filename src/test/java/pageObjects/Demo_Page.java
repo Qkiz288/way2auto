@@ -17,6 +17,14 @@ public class Demo_Page {
     }
   }
 
+  public static class WidgetSection {
+
+    public static WebElement box_Datepicker(WebDriver driver) {
+      element = driver.findElement(By.cssSelector(Demo_PageLocator.CSS_DATEPICKER_BOX));
+      return element;
+    }
+  }
+
   public static WebElement box_FramesAndWindows(WebDriver driver) {
     element = driver.findElement(By.cssSelector(Demo_PageLocator.CSS_FRAMES_AND_WINDOWS_BOX));
     return element;
