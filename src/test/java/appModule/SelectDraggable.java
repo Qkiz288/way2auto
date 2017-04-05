@@ -10,7 +10,7 @@ import pageObjects.Demo_Page;
 public class SelectDraggable {
   public static void execute(WebDriver driver) {
     int attemptsOnFindingDraggableElement = 0;
-    while (attemptsOnFindingDraggableElement < 20) {
+    while (attemptsOnFindingDraggableElement < 2) {
       try {
         waitForElementToBeVisible(driver);
         Demo_Page.InteractionSection.box_Draggable(driver).click();

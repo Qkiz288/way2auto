@@ -47,4 +47,14 @@ public class Index {
     element = driver.findElement(By.cssSelector(IndexLocator.CSS_INVALID_USERNAME_AND_PASSWORD_LBL));
     return element;
   }
+
+  public static WebElement lnk_Home(WebDriver driver) {
+    element = driver.findElement(By.xpath(IndexLocator.XPATH_HOME_LNK));
+    return element;
+  }
+
+  public static WebElement overlay_LoginOverlay(WebDriver driver) {
+    element = driver.findElement(By.xpath(IndexLocator.OVERLAY_LOGIN_OVERLAY));
+    return element;
+  }
 }
