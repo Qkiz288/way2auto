@@ -8,7 +8,8 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import appModule.CalculateElementPosition;
-import appModule.CheckElementPosition;
+import appModule.CheckElementMovedOnlyVertically;
+import appModule.CheckElementMovedToDesiredPosition;
 import appModule.ClickButton;
 import appModule.DragElement;
 import appModule.EndDriverSession;
@@ -33,13 +34,22 @@ public class DraggableTest {
     SelectDraggable.execute(driver);
   }
 
-  @Test(dataProvider = "offsets")
+  @Test(dataProvider = "defaultOffsets")
   public void defaultFunctionality(int xOffset, int yOffset) {
     ClickButton.execute(Draggable.lnk_Default_Functionality(driver));
     SwitchToiFrame.execute(driver, Draggable.iframe_Default_Functionality(driver));
     draggableElementPosition = CalculateElementPosition.execute(Draggable.drg_Draggable_Element(driver));
     DragElement.executeOffsetDrag(driver, Draggable.drg_Draggable_Element(driver), xOffset, yOffset);
-    CheckElementPosition.execute(Draggable.drg_Draggable_Element(driver), draggableElementPosition, xOffset, yOffset);
+    CheckElementMovedToDesiredPosition.execute(Draggable.drg_Draggable_Element(driver), draggableElementPosition, xOffset, yOffset);
+  }
+
+  @Test(dataProvider = "defaultOffsets")
+  public void constrainMovementVertical(int xOffset, int yOffset) {
+    ClickButton.execute(Draggable.lnk_Constrain_Movement(driver));
+    SwitchToiFrame.execute(driver, Draggable.iframe_Constrain_Movement(driver));
+    draggableElementPosition = CalculateElementPosition.execute(Draggable.drg_Vertical_Drag_Element(driver));
+    DragElement.executeOffsetDrag(driver, Draggable.drg_Vertical_Drag_Element(driver), xOffset, yOffset);
+    CheckElementMovedOnlyVertically.execute(Draggable.drg_Vertical_Drag_Element(driver), draggableElementPosition, yOffset);
   }
 
   @AfterMethod
@@ -48,8 +58,8 @@ public class DraggableTest {
   }
 
   @DataProvider
-  public Object[][] offsets() {
-    return new Object[][] { { 50, 80 }, { -65, -90 }, { 50, -200 }, { -300, 20 } };
+  public Object[][] defaultOffsets() {
+    return new Object[][] { { -50, -30 }, { 50, 80 }, { 50, -20 }, { -30, 20 } };
   }
 
 }

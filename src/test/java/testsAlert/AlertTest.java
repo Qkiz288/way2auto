@@ -53,7 +53,7 @@ public class AlertTest {
 
   @AfterMethod
   public void tearDown() {
-    EndDriverSession.execute(driver);
+    //EndDriverSession.execute(driver);
   }
 
 }

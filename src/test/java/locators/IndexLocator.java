@@ -7,5 +7,6 @@ public class IndexLocator {
       XPATH_TEXT_LBL = "//div[@class='container margin-top-20']/div[1]/h1[2]",
       XPATH_WIDGET_BOXES_BOX = "//section[@id='wrapper']/div[2]/div[2]/div[2]/ul/li",
       CSS_INVALID_USERNAME_AND_PASSWORD_LBL = "p#alert1", XPATH_HOME_LNK = "//a[contains(text(),'Home')]",
+
       OVERLAY_LOGIN_OVERLAY = "//div[@class='fancybox-overlay fancybox-overlay-fixed']";
 }

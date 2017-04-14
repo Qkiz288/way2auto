@@ -9,4 +9,5 @@ public class DragElement {
     Actions drag = new Actions(driver);
     drag.clickAndHold(draggedElement).moveByOffset(x, y).release().build().perform();
   }
+
 }

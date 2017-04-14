@@ -21,4 +21,5 @@ public class LoginWithCorrectCredentials {
     WebDriverWait wait = new WebDriverWait(driver, 2);
     wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath(IndexLocator.OVERLAY_LOGIN_OVERLAY)));
   }
+
 }
